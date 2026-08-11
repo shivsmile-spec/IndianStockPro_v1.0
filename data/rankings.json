@@ -1,29 +1,708 @@
 {
-  "generated": "v1.0",
+  "version": "1.0",
+  "generated": "2026-08-11 12:43 UTC",
   "market": {
-    "regime": "Data engine pending"
+    "regime": "NIFTY benchmark loaded",
+    "benchmark": "^NSEI"
   },
-  "rankings": [],
+  "methodology": {
+    "weights": {
+      "momentum": 22,
+      "trend": 18,
+      "relativeStrength": 16,
+      "volume": 10,
+      "rsiQuality": 8,
+      "breakout": 8,
+      "volatility": 8,
+      "riskReward": 10
+    },
+    "note": "Scores are research signals, not guaranteed predictions or investment advice."
+  },
+  "rankings": [
+    {
+      "price": 4011.0,
+      "score": 81.4,
+      "signal": "Strong setup",
+      "opportunity": 81.4,
+      "confidence": 79.6,
+      "risk": 28.1,
+      "horizon": "1–4 weeks",
+      "entry": 4011.0,
+      "target": 4292.32,
+      "stop": 3842.21,
+      "factors": {
+        "Momentum": 77.7,
+        "Trend": 100,
+        "Relative strength": 85.3,
+        "Volume": 100.0,
+        "RSI quality": 70.6,
+        "Breakout proximity": 100.0,
+        "Volatility": 71.9,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 71.36,
+        "return5d": 0.26,
+        "return20d": 14.83,
+        "return60d": 13.51,
+        "rel20d": 13.08,
+        "volumeRatio": 2.86,
+        "atrPct": 2.81,
+        "distance20dHighPct": 0.0,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +14.8%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +13.1% over 20 days.",
+        "Volume is 2.9× its 20-day average.",
+        "Price is within 0.0% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "SIEMENS",
+      "company": "Siemens"
+    },
+    {
+      "price": 5128.0,
+      "score": 80.7,
+      "signal": "Strong setup",
+      "opportunity": 80.7,
+      "confidence": 76.9,
+      "risk": 19.4,
+      "horizon": "1–4 weeks",
+      "entry": 5128.0,
+      "target": 5377.27,
+      "stop": 4978.44,
+      "factors": {
+        "Momentum": 86.1,
+        "Trend": 100,
+        "Relative strength": 98.5,
+        "Volume": 55.4,
+        "RSI quality": 59.8,
+        "Breakout proximity": 100.0,
+        "Volatility": 80.6,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 76.29,
+        "return5d": 3.91,
+        "return20d": 12.12,
+        "return60d": 25.42,
+        "rel20d": 10.37,
+        "volumeRatio": 1.7,
+        "atrPct": 1.94,
+        "distance20dHighPct": 0.0,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +12.1%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +10.4% over 20 days.",
+        "Volume is 1.7× its 20-day average.",
+        "Price is within 0.0% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "TITAN",
+      "company": "Titan"
+    },
+    {
+      "price": 5865.5,
+      "score": 76.9,
+      "signal": "Positive setup",
+      "opportunity": 76.9,
+      "confidence": 73.3,
+      "risk": 26.1,
+      "horizon": "1–4 weeks",
+      "entry": 5865.5,
+      "target": 6248.54,
+      "stop": 5635.67,
+      "factors": {
+        "Momentum": 89.8,
+        "Trend": 100,
+        "Relative strength": 100.0,
+        "Volume": 16.2,
+        "RSI quality": 55.3,
+        "Breakout proximity": 100.0,
+        "Volatility": 73.9,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 78.34,
+        "return5d": 5.72,
+        "return20d": 22.01,
+        "return60d": 18.86,
+        "rel20d": 20.26,
+        "volumeRatio": 0.99,
+        "atrPct": 2.61,
+        "distance20dHighPct": 0.0,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +22.0%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +20.3% over 20 days.",
+        "Price is within 0.0% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "HEROMOTOCO",
+      "company": "Heromotoco"
+    },
+    {
+      "price": 8578.5,
+      "score": 75.8,
+      "signal": "Positive setup",
+      "opportunity": 75.8,
+      "confidence": 72.6,
+      "risk": 25.4,
+      "horizon": "1–4 weeks",
+      "entry": 8578.5,
+      "target": 9122.88,
+      "stop": 8251.87,
+      "factors": {
+        "Momentum": 88.0,
+        "Trend": 100,
+        "Relative strength": 93.9,
+        "Volume": 18.8,
+        "RSI quality": 55.5,
+        "Breakout proximity": 99.4,
+        "Volatility": 74.6,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 78.22,
+        "return5d": 2.39,
+        "return20d": 19.83,
+        "return60d": 24.62,
+        "rel20d": 18.08,
+        "volumeRatio": 1.04,
+        "atrPct": 2.54,
+        "distance20dHighPct": -0.08,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +19.8%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +18.1% over 20 days.",
+        "Price is within 0.1% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "DIVISLAB",
+      "company": "Divislab"
+    },
+    {
+      "price": 3322.2,
+      "score": 75.1,
+      "signal": "Positive setup",
+      "opportunity": 75.1,
+      "confidence": 79.4,
+      "risk": 24.5,
+      "horizon": "1–4 weeks",
+      "entry": 3322.2,
+      "target": 3525.59,
+      "stop": 3200.17,
+      "factors": {
+        "Momentum": 74.0,
+        "Trend": 100,
+        "Relative strength": 90.2,
+        "Volume": 30.2,
+        "RSI quality": 91.2,
+        "Breakout proximity": 85.6,
+        "Volatility": 75.5,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 62.01,
+        "return5d": 6.2,
+        "return20d": 7.04,
+        "return60d": 13.54,
+        "rel20d": 5.3,
+        "volumeRatio": 1.24,
+        "atrPct": 2.45,
+        "distance20dHighPct": -1.72,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +7.0%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +5.3% over 20 days.",
+        "RSI 14 is 62.0, avoiding an extreme overbought reading.",
+        "Price is within 1.7% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "GRASIM",
+      "company": "Grasim"
+    },
+    {
+      "price": 8000.0,
+      "score": 74.7,
+      "signal": "Positive setup",
+      "opportunity": 74.7,
+      "confidence": 77.6,
+      "risk": 19.7,
+      "horizon": "1–4 weeks",
+      "entry": 8000.0,
+      "target": 8393.85,
+      "stop": 7763.69,
+      "factors": {
+        "Momentum": 74.7,
+        "Trend": 100,
+        "Relative strength": 89.2,
+        "Volume": 21.2,
+        "RSI quality": 83.4,
+        "Breakout proximity": 94.8,
+        "Volatility": 80.3,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 65.53,
+        "return5d": 0.82,
+        "return20d": 11.05,
+        "return60d": 17.45,
+        "rel20d": 9.3,
+        "volumeRatio": 1.08,
+        "atrPct": 1.97,
+        "distance20dHighPct": -0.62,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +11.0%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +9.3% over 20 days.",
+        "RSI 14 is 65.5, avoiding an extreme overbought reading.",
+        "Price is within 0.6% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "EICHERMOT",
+      "company": "Eichermot"
+    },
+    {
+      "price": 4400.0,
+      "score": 74.0,
+      "signal": "Positive setup",
+      "opportunity": 74.0,
+      "confidence": 74.3,
+      "risk": 21.6,
+      "horizon": "1–4 weeks",
+      "entry": 4400.0,
+      "target": 4638.07,
+      "stop": 4257.16,
+      "factors": {
+        "Momentum": 88.9,
+        "Trend": 100,
+        "Relative strength": 89.5,
+        "Volume": 0.0,
+        "RSI quality": 70.2,
+        "Breakout proximity": 87.6,
+        "Volatility": 78.4,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 71.56,
+        "return5d": 0.92,
+        "return20d": 21.94,
+        "return60d": 34.01,
+        "rel20d": 20.19,
+        "volumeRatio": 0.62,
+        "atrPct": 2.16,
+        "distance20dHighPct": -1.48,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +21.9%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +20.2% over 20 days.",
+        "Price is within 1.5% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "TVSMOTOR",
+      "company": "Tvsmotor"
+    },
+    {
+      "price": 4909.0,
+      "score": 73.7,
+      "signal": "Positive setup",
+      "opportunity": 73.7,
+      "confidence": 73.2,
+      "risk": 19.7,
+      "horizon": "1–4 weeks",
+      "entry": 4909.0,
+      "target": 5151.02,
+      "stop": 4763.79,
+      "factors": {
+        "Momentum": 79.2,
+        "Trend": 100,
+        "Relative strength": 97.6,
+        "Volume": 0.0,
+        "RSI quality": 65.7,
+        "Breakout proximity": 96.8,
+        "Volatility": 80.3,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 73.58,
+        "return5d": 5.91,
+        "return20d": 10.5,
+        "return60d": 13.29,
+        "rel20d": 8.76,
+        "volumeRatio": 0.54,
+        "atrPct": 1.97,
+        "distance20dHighPct": -0.39,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +10.5%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +8.8% over 20 days.",
+        "Price is within 0.4% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "HAL",
+      "company": "Hal"
+    },
+    {
+      "price": 11717.0,
+      "score": 73.1,
+      "signal": "Positive setup",
+      "opportunity": 73.1,
+      "confidence": 75.3,
+      "risk": 21.2,
+      "horizon": "1–4 weeks",
+      "entry": 11717.0,
+      "target": 12338.16,
+      "stop": 11344.3,
+      "factors": {
+        "Momentum": 80.9,
+        "Trend": 100,
+        "Relative strength": 89.8,
+        "Volume": 0.0,
+        "RSI quality": 77.9,
+        "Breakout proximity": 90.2,
+        "Volatility": 78.8,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 68.05,
+        "return5d": 1.01,
+        "return20d": 15.26,
+        "return60d": 16.43,
+        "rel20d": 13.51,
+        "volumeRatio": 0.61,
+        "atrPct": 2.12,
+        "distance20dHighPct": -1.17,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +15.3%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +13.5% over 20 days.",
+        "Price is within 1.2% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "BAJAJ-AUTO",
+      "company": "Bajaj-Auto"
+    },
+    {
+      "price": 7611.5,
+      "score": 72.5,
+      "signal": "Positive setup",
+      "opportunity": 72.5,
+      "confidence": 76.9,
+      "risk": 28.1,
+      "horizon": "1–4 weeks",
+      "entry": 7611.5,
+      "target": 8145.67,
+      "stop": 7291.0,
+      "factors": {
+        "Momentum": 77.1,
+        "Trend": 100,
+        "Relative strength": 86.8,
+        "Volume": 0.0,
+        "RSI quality": 87.9,
+        "Breakout proximity": 95.9,
+        "Volatility": 71.9,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 63.5,
+        "return5d": 0.01,
+        "return20d": 11.74,
+        "return60d": 21.68,
+        "rel20d": 10.0,
+        "volumeRatio": 0.3,
+        "atrPct": 2.81,
+        "distance20dHighPct": -0.5,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +11.7%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +10.0% over 20 days.",
+        "RSI 14 is 63.5, avoiding an extreme overbought reading.",
+        "Price is within 0.5% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "ABB",
+      "company": "Abb"
+    }
+  ],
   "stocks": [
     {
       "symbol": "RELIANCE",
-      "company": "Reliance Industries Ltd"
+      "company": "Reliance"
     },
     {
       "symbol": "TCS",
-      "company": "Tata Consultancy Services Ltd"
+      "company": "Tcs"
     },
     {
       "symbol": "HDFCBANK",
-      "company": "HDFC Bank Ltd"
-    },
-    {
-      "symbol": "INFY",
-      "company": "Infosys Ltd"
+      "company": "Hdfcbank"
     },
     {
       "symbol": "ICICIBANK",
-      "company": "ICICI Bank Ltd"
+      "company": "Icicibank"
+    },
+    {
+      "symbol": "INFY",
+      "company": "Infy"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "company": "Bhartiartl"
+    },
+    {
+      "symbol": "ITC",
+      "company": "Itc"
+    },
+    {
+      "symbol": "SBIN",
+      "company": "Sbin"
+    },
+    {
+      "symbol": "LT",
+      "company": "Lt"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "company": "Hindunilvr"
+    },
+    {
+      "symbol": "AXISBANK",
+      "company": "Axisbank"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "company": "Kotakbank"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "company": "Bajfinance"
+    },
+    {
+      "symbol": "M&M",
+      "company": "M&M"
+    },
+    {
+      "symbol": "MARUTI",
+      "company": "Maruti"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "company": "Sunpharma"
+    },
+    {
+      "symbol": "TITAN",
+      "company": "Titan"
+    },
+    {
+      "symbol": "ADANIENT",
+      "company": "Adanient"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "company": "Adaniports"
+    },
+    {
+      "symbol": "NTPC",
+      "company": "Ntpc"
+    },
+    {
+      "symbol": "POWERGRID",
+      "company": "Powergrid"
+    },
+    {
+      "symbol": "ONGC",
+      "company": "Ongc"
+    },
+    {
+      "symbol": "COALINDIA",
+      "company": "Coalindia"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tatasteel"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "company": "Jswsteel"
+    },
+    {
+      "symbol": "HCLTECH",
+      "company": "Hcltech"
+    },
+    {
+      "symbol": "WIPRO",
+      "company": "Wipro"
+    },
+    {
+      "symbol": "TECHM",
+      "company": "Techm"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "company": "Ultracemco"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "company": "Asianpaint"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "company": "Nestleind"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "company": "Bajajfinsv"
+    },
+    {
+      "symbol": "HINDALCO",
+      "company": "Hindalco"
+    },
+    {
+      "symbol": "TRENT",
+      "company": "Trent"
+    },
+    {
+      "symbol": "BEL",
+      "company": "Bel"
+    },
+    {
+      "symbol": "HAL",
+      "company": "Hal"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "company": "Indusindbk"
+    },
+    {
+      "symbol": "DRREDDY",
+      "company": "Drreddy"
+    },
+    {
+      "symbol": "CIPLA",
+      "company": "Cipla"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "company": "Eichermot"
+    },
+    {
+      "symbol": "GRASIM",
+      "company": "Grasim"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "company": "Divislab"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "company": "Apollohosp"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "company": "Britannia"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "company": "Heromotoco"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "company": "Bajaj-Auto"
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "company": "Tvsmotor"
+    },
+    {
+      "symbol": "SIEMENS",
+      "company": "Siemens"
+    },
+    {
+      "symbol": "ABB",
+      "company": "Abb"
+    },
+    {
+      "symbol": "DLF",
+      "company": "Dlf"
+    },
+    {
+      "symbol": "INDIGO",
+      "company": "Indigo"
+    },
+    {
+      "symbol": "VEDL",
+      "company": "Vedl"
     }
   ]
 }

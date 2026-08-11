@@ -1,0 +1,29 @@
+{
+  "generated": "v1.0",
+  "market": {
+    "regime": "Data engine pending"
+  },
+  "rankings": [],
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "company": "Reliance Industries Ltd"
+    },
+    {
+      "symbol": "TCS",
+      "company": "Tata Consultancy Services Ltd"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "company": "HDFC Bank Ltd"
+    },
+    {
+      "symbol": "INFY",
+      "company": "Infosys Ltd"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "company": "ICICI Bank Ltd"
+    }
+  ]
+}

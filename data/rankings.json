@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-08-19 13:59 UTC",
+  "generated": "2026-08-20 14:02 UTC",
   "market": {
     "regime": "NIFTY benchmark loaded",
     "benchmark": "^NSEI"
@@ -20,43 +20,43 @@
   },
   "rankings": [
     {
-      "price": 4361.1,
-      "score": 73.5,
+      "price": 4390.0,
+      "score": 74.6,
       "signal": "Positive setup",
-      "opportunity": 73.5,
-      "confidence": 76.7,
-      "risk": 19.8,
+      "opportunity": 74.6,
+      "confidence": 76.8,
+      "risk": 18.1,
       "horizon": "1–4 weeks",
-      "entry": 4361.1,
-      "target": 4576.89,
-      "stop": 4231.63,
+      "entry": 4390.0,
+      "target": 4588.45,
+      "stop": 4270.93,
       "factors": {
-        "Momentum": 84.7,
+        "Momentum": 87.1,
         "Trend": 100,
-        "Relative strength": 88.4,
+        "Relative strength": 90.3,
         "Volume": 0.0,
-        "RSI quality": 83.3,
-        "Breakout proximity": 80.4,
-        "Volatility": 80.2,
+        "RSI quality": 80.0,
+        "Breakout proximity": 85.8,
+        "Volatility": 81.9,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 65.58,
-        "return5d": -0.32,
-        "return20d": 15.01,
-        "return60d": 26.23,
-        "rel20d": 15.46,
-        "volumeRatio": 0.36,
-        "atrPct": 1.98,
-        "distance20dHighPct": -2.35,
+        "rsi14": 67.09,
+        "return5d": 1.1,
+        "return20d": 15.77,
+        "return60d": 26.53,
+        "rel20d": 15.59,
+        "volumeRatio": 0.41,
+        "atrPct": 1.81,
+        "distance20dHighPct": -1.71,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +15.0%.",
+        "20-day momentum is +15.8%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +15.5% over 20 days.",
-        "RSI 14 is 65.6, avoiding an extreme overbought reading.",
-        "Price is within 2.4% of its 20-day high."
+        "Relative strength vs NIFTY is +15.6% over 20 days.",
+        "RSI 14 is 67.1, avoiding an extreme overbought reading.",
+        "Price is within 1.7% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -68,42 +68,42 @@
       "company": "Tvsmotor"
     },
     {
-      "price": 8560.0,
-      "score": 73.1,
+      "price": 8570.0,
+      "score": 74.0,
       "signal": "Positive setup",
-      "opportunity": 73.1,
-      "confidence": 73.1,
-      "risk": 22.8,
+      "opportunity": 74.0,
+      "confidence": 73.6,
+      "risk": 21.2,
       "horizon": "1–4 weeks",
-      "entry": 8560.0,
-      "target": 9048.93,
-      "stop": 8266.64,
+      "entry": 8570.0,
+      "target": 9025.09,
+      "stop": 8296.95,
       "factors": {
-        "Momentum": 84.6,
+        "Momentum": 86.7,
         "Trend": 100,
-        "Relative strength": 88.0,
+        "Relative strength": 89.5,
         "Volume": 0.0,
-        "RSI quality": 67.0,
-        "Breakout proximity": 96.1,
-        "Volatility": 77.2,
+        "RSI quality": 66.5,
+        "Breakout proximity": 97.1,
+        "Volatility": 78.8,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 73.01,
-        "return5d": -0.47,
-        "return20d": 16.36,
-        "return60d": 26.45,
-        "rel20d": 16.02,
-        "volumeRatio": 0.33,
-        "atrPct": 2.28,
-        "distance20dHighPct": -0.47,
+        "rsi14": 73.23,
+        "return5d": 0.82,
+        "return20d": 17.8,
+        "return60d": 26.6,
+        "rel20d": 16.28,
+        "volumeRatio": 0.37,
+        "atrPct": 2.12,
+        "distance20dHighPct": -0.35,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +16.4%.",
+        "20-day momentum is +17.8%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +16.0% over 20 days.",
-        "Price is within 0.5% of its 20-day high."
+        "Relative strength vs NIFTY is +16.3% over 20 days.",
+        "Price is within 0.3% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -115,42 +115,43 @@
       "company": "Divislab"
     },
     {
-      "price": 5017.0,
-      "score": 71.3,
+      "price": 1299.7,
+      "score": 72.1,
       "signal": "Positive setup",
-      "opportunity": 71.3,
-      "confidence": 73.8,
-      "risk": 23.9,
+      "opportunity": 72.1,
+      "confidence": 79.1,
+      "risk": 20.2,
       "horizon": "1–4 weeks",
-      "entry": 5017.0,
-      "target": 5316.85,
-      "stop": 4837.09,
+      "entry": 1299.7,
+      "target": 1365.24,
+      "stop": 1260.38,
       "factors": {
-        "Momentum": 70.3,
+        "Momentum": 53.2,
         "Trend": 100,
-        "Relative strength": 91.3,
-        "Volume": 8.5,
-        "RSI quality": 76.5,
-        "Breakout proximity": 86.6,
-        "Volatility": 76.1,
+        "Relative strength": 64.0,
+        "Volume": 80.8,
+        "RSI quality": 99.9,
+        "Breakout proximity": 81.0,
+        "Volatility": 79.8,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 68.66,
-        "return5d": 0.64,
-        "return20d": 9.89,
-        "return60d": 13.92,
-        "rel20d": 9.55,
-        "volumeRatio": 0.85,
-        "atrPct": 2.39,
-        "distance20dHighPct": -1.61,
+        "rsi14": 57.97,
+        "return5d": 2.41,
+        "return20d": 2.59,
+        "return60d": 1.05,
+        "rel20d": 1.61,
+        "volumeRatio": 2.16,
+        "atrPct": 2.02,
+        "distance20dHighPct": -2.28,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +9.9%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +9.5% over 20 days.",
-        "Price is within 1.6% of its 20-day high."
+        "Relative strength vs NIFTY is +1.6% over 20 days.",
+        "Volume is 2.2× its 20-day average.",
+        "RSI 14 is 58.0, avoiding an extreme overbought reading.",
+        "Price is within 2.3% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -158,95 +159,47 @@
       "risks": [
         "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
       ],
-      "symbol": "HAL",
-      "company": "Hal"
+      "symbol": "JSWSTEEL",
+      "company": "Jswsteel"
     },
     {
-      "price": 11645.0,
-      "score": 70.9,
+      "price": 676.15,
+      "score": 71.5,
       "signal": "Positive setup",
-      "opportunity": 70.9,
-      "confidence": 75.6,
-      "risk": 18.0,
+      "opportunity": 71.5,
+      "confidence": 78.2,
+      "risk": 25.0,
       "horizon": "1–4 weeks",
-      "entry": 11645.0,
-      "target": 12168.66,
-      "stop": 11330.8,
+      "entry": 676.15,
+      "target": 718.36,
+      "stop": 650.83,
       "factors": {
-        "Momentum": 70.5,
+        "Momentum": 68.0,
         "Trend": 100,
-        "Relative strength": 86.7,
-        "Volume": 0.0,
-        "RSI quality": 86.9,
-        "Breakout proximity": 85.2,
-        "Volatility": 82.0,
+        "Relative strength": 84.3,
+        "Volume": 0.7,
+        "RSI quality": 97.5,
+        "Breakout proximity": 100.0,
+        "Volatility": 75.0,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 63.96,
-        "return5d": -0.47,
-        "return20d": 11.93,
-        "return60d": 11.48,
-        "rel20d": 12.39,
-        "volumeRatio": 0.6,
-        "atrPct": 1.8,
-        "distance20dHighPct": -1.78,
+        "rsi14": 59.13,
+        "return5d": 1.83,
+        "return20d": 6.61,
+        "return60d": 16.08,
+        "rel20d": 5.09,
+        "volumeRatio": 0.71,
+        "atrPct": 2.5,
+        "distance20dHighPct": 0.0,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +11.9%.",
+        "20-day momentum is +6.6%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +12.4% over 20 days.",
-        "RSI 14 is 64.0, avoiding an extreme overbought reading.",
-        "Price is within 1.8% of its 20-day high."
-      ],
-      "catalysts": [
-        "Momentum/trend/volume setup detected; verify current company news before acting."
-      ],
-      "risks": [
-        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
-      ],
-      "symbol": "BAJAJ-AUTO",
-      "company": "Bajaj-Auto"
-    },
-    {
-      "price": 669.9,
-      "score": 70.5,
-      "signal": "Positive setup",
-      "opportunity": 70.5,
-      "confidence": 78.4,
-      "risk": 24.6,
-      "horizon": "1–4 weeks",
-      "entry": 669.9,
-      "target": 711.13,
-      "stop": 645.16,
-      "factors": {
-        "Momentum": 61.8,
-        "Trend": 100,
-        "Relative strength": 81.2,
-        "Volume": 9.4,
-        "RSI quality": 98.0,
-        "Breakout proximity": 98.6,
-        "Volatility": 75.4,
-        "Risk/reward": 32.1
-      },
-      "raw": {
-        "rsi14": 57.08,
-        "return5d": 1.23,
-        "return20d": 4.12,
-        "return60d": 14.21,
-        "rel20d": 3.77,
-        "volumeRatio": 0.87,
-        "atrPct": 2.46,
-        "distance20dHighPct": -0.16,
-        "rrProxy": 1.67
-      },
-      "reasons": [
-        "20-day momentum is +4.1%.",
-        "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +3.8% over 20 days.",
-        "RSI 14 is 57.1, avoiding an extreme overbought reading.",
-        "Price is within 0.2% of its 20-day high."
+        "Relative strength vs NIFTY is +5.1% over 20 days.",
+        "RSI 14 is 59.1, avoiding an extreme overbought reading.",
+        "Price is within 0.0% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -262,38 +215,37 @@
       "score": 70.2,
       "signal": "Positive setup",
       "opportunity": 70.2,
-      "confidence": 73.3,
-      "risk": 19.5,
+      "confidence": 73.1,
+      "risk": 19.3,
       "horizon": "1–4 weeks",
       "entry": 5068.0,
-      "target": 5314.95,
-      "stop": 4919.83,
+      "target": 5312.23,
+      "stop": 4921.46,
       "factors": {
-        "Momentum": 69.9,
+        "Momentum": 72.1,
         "Trend": 100,
-        "Relative strength": 85.4,
+        "Relative strength": 82.7,
         "Volume": 0.0,
-        "RSI quality": 78.1,
+        "RSI quality": 77.3,
         "Breakout proximity": 90.2,
-        "Volatility": 80.5,
+        "Volatility": 80.7,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 67.98,
-        "return5d": -0.61,
-        "return20d": 7.56,
-        "return60d": 22.88,
-        "rel20d": 7.22,
-        "volumeRatio": 0.44,
-        "atrPct": 1.95,
+        "rsi14": 68.31,
+        "return5d": 0.08,
+        "return20d": 7.89,
+        "return60d": 23.84,
+        "rel20d": 6.37,
+        "volumeRatio": 0.64,
+        "atrPct": 1.93,
         "distance20dHighPct": -1.17,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +7.6%.",
+        "20-day momentum is +7.9%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +7.2% over 20 days.",
-        "RSI 14 is 68.0, avoiding an extreme overbought reading.",
+        "Relative strength vs NIFTY is +6.4% over 20 days.",
         "Price is within 1.2% of its 20-day high."
       ],
       "catalysts": [
@@ -306,43 +258,43 @@
       "company": "Titan"
     },
     {
-      "price": 3415.0,
-      "score": 69.4,
+      "price": 4998.0,
+      "score": 70.1,
       "signal": "Positive setup",
-      "opportunity": 69.4,
-      "confidence": 77.3,
-      "risk": 20.5,
+      "opportunity": 70.1,
+      "confidence": 73.8,
+      "risk": 23.8,
       "horizon": "1–4 weeks",
-      "entry": 3415.0,
-      "target": 3589.77,
-      "stop": 3310.14,
+      "entry": 4998.0,
+      "target": 5295.99,
+      "stop": 4819.21,
       "factors": {
-        "Momentum": 63.9,
+        "Momentum": 69.7,
         "Trend": 100,
-        "Relative strength": 85.9,
+        "Relative strength": 89.5,
         "Volume": 0.0,
-        "RSI quality": 99.6,
-        "Breakout proximity": 75.8,
-        "Volatility": 79.5,
+        "RSI quality": 80.7,
+        "Breakout proximity": 83.5,
+        "Volatility": 76.2,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 57.84,
-        "return5d": 0.33,
-        "return20d": 7.55,
-        "return60d": 10.55,
-        "rel20d": 7.21,
-        "volumeRatio": 0.64,
-        "atrPct": 2.05,
-        "distance20dHighPct": -2.9,
+        "rsi14": 66.75,
+        "return5d": 1.28,
+        "return20d": 9.05,
+        "return60d": 13.49,
+        "rel20d": 7.53,
+        "volumeRatio": 0.37,
+        "atrPct": 2.38,
+        "distance20dHighPct": -1.98,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +7.5%.",
+        "20-day momentum is +9.1%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +7.2% over 20 days.",
-        "RSI 14 is 57.8, avoiding an extreme overbought reading.",
-        "Price is within 2.9% of its 20-day high."
+        "Relative strength vs NIFTY is +7.5% over 20 days.",
+        "RSI 14 is 66.8, avoiding an extreme overbought reading.",
+        "Price is within 2.0% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -350,46 +302,47 @@
       "risks": [
         "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
       ],
-      "symbol": "M&M",
-      "company": "M&M"
+      "symbol": "HAL",
+      "company": "Hal"
     },
     {
-      "price": 5709.5,
-      "score": 68.9,
+      "price": 5740.5,
+      "score": 69.4,
       "signal": "Positive setup",
-      "opportunity": 68.9,
-      "confidence": 73.6,
-      "risk": 23.3,
+      "opportunity": 69.4,
+      "confidence": 73.2,
+      "risk": 23.5,
       "horizon": "1–4 weeks",
-      "entry": 5709.5,
-      "target": 6041.95,
-      "stop": 5510.03,
+      "entry": 5740.5,
+      "target": 6077.23,
+      "stop": 5538.46,
       "factors": {
-        "Momentum": 73.1,
+        "Momentum": 75.5,
         "Trend": 100,
-        "Relative strength": 80.0,
+        "Relative strength": 79.6,
         "Volume": 0.0,
-        "RSI quality": 84.3,
-        "Breakout proximity": 73.8,
-        "Volatility": 76.7,
+        "RSI quality": 80.3,
+        "Breakout proximity": 78.2,
+        "Volatility": 76.5,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 65.13,
-        "return5d": -3.15,
-        "return20d": 16.17,
-        "return60d": 14.16,
-        "rel20d": 15.83,
-        "volumeRatio": 0.43,
-        "atrPct": 2.33,
-        "distance20dHighPct": -3.15,
+        "rsi14": 66.97,
+        "return5d": -2.62,
+        "return20d": 15.71,
+        "return60d": 16.9,
+        "rel20d": 15.53,
+        "volumeRatio": 0.37,
+        "atrPct": 2.35,
+        "distance20dHighPct": -2.62,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +16.2%.",
+        "20-day momentum is +15.7%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +15.8% over 20 days.",
-        "RSI 14 is 65.1, avoiding an extreme overbought reading."
+        "Relative strength vs NIFTY is +15.5% over 20 days.",
+        "RSI 14 is 67.0, avoiding an extreme overbought reading.",
+        "Price is within 2.6% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -401,42 +354,44 @@
       "company": "Heromotoco"
     },
     {
-      "price": 2012.0,
-      "score": 67.6,
-      "signal": "Watch",
-      "opportunity": 67.6,
-      "confidence": 76.0,
-      "risk": 22.9,
+      "price": 3300.0,
+      "score": 68.5,
+      "signal": "Positive setup",
+      "opportunity": 68.5,
+      "confidence": 76.3,
+      "risk": 28.5,
       "horizon": "1–4 weeks",
-      "entry": 2012.0,
-      "target": 2127.41,
-      "stop": 1942.75,
+      "entry": 3300.0,
+      "target": 3535.09,
+      "stop": 3158.94,
       "factors": {
-        "Momentum": 62.7,
+        "Momentum": 56.0,
         "Trend": 100,
-        "Relative strength": 83.5,
-        "Volume": 0.0,
-        "RSI quality": 99.7,
-        "Breakout proximity": 63.2,
-        "Volatility": 77.1,
+        "Relative strength": 70.7,
+        "Volume": 36.8,
+        "RSI quality": 98.4,
+        "Breakout proximity": 80.2,
+        "Volatility": 71.5,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 57.88,
-        "return5d": -0.42,
-        "return20d": 7.23,
-        "return60d": 11.31,
-        "rel20d": 6.88,
-        "volumeRatio": 0.64,
-        "atrPct": 2.29,
-        "distance20dHighPct": -4.42,
+        "rsi14": 58.71,
+        "return5d": 1.32,
+        "return20d": 4.1,
+        "return60d": 4.37,
+        "rel20d": 3.92,
+        "volumeRatio": 1.36,
+        "atrPct": 2.85,
+        "distance20dHighPct": -2.38,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +7.2%.",
+        "20-day momentum is +4.1%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +6.9% over 20 days.",
-        "RSI 14 is 57.9, avoiding an extreme overbought reading."
+        "Relative strength vs NIFTY is +3.9% over 20 days.",
+        "Volume is 1.4× its 20-day average.",
+        "RSI 14 is 58.7, avoiding an extreme overbought reading.",
+        "Price is within 2.4% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -444,47 +399,47 @@
       "risks": [
         "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
       ],
-      "symbol": "BAJAJFINSV",
-      "company": "Bajajfinsv"
+      "symbol": "GRASIM",
+      "company": "Grasim"
     },
     {
-      "price": 7990.5,
-      "score": 67.5,
+      "price": 3424.8,
+      "score": 67.3,
       "signal": "Watch",
-      "opportunity": 67.5,
-      "confidence": 74.7,
-      "risk": 16.0,
+      "opportunity": 67.3,
+      "confidence": 75.5,
+      "risk": 17.1,
       "horizon": "1–4 weeks",
-      "entry": 7990.5,
-      "target": 8309.88,
-      "stop": 7798.88,
+      "entry": 3424.8,
+      "target": 3571.3,
+      "stop": 3336.9,
       "factors": {
-        "Momentum": 58.3,
+        "Momentum": 60.9,
         "Trend": 100,
-        "Relative strength": 76.0,
+        "Relative strength": 74.3,
         "Volume": 0.0,
-        "RSI quality": 93.9,
-        "Breakout proximity": 88.7,
-        "Volatility": 84.0,
+        "RSI quality": 98.6,
+        "Breakout proximity": 78.2,
+        "Volatility": 82.9,
         "Risk/reward": 32.1
       },
       "raw": {
-        "rsi14": 60.78,
-        "return5d": -0.73,
-        "return20d": 5.79,
-        "return60d": 8.83,
-        "rel20d": 5.45,
-        "volumeRatio": 0.69,
-        "atrPct": 1.6,
-        "distance20dHighPct": -1.35,
+        "rsi14": 58.65,
+        "return5d": -0.1,
+        "return20d": 6.04,
+        "return60d": 10.87,
+        "rel20d": 4.52,
+        "volumeRatio": 0.52,
+        "atrPct": 1.71,
+        "distance20dHighPct": -2.62,
         "rrProxy": 1.67
       },
       "reasons": [
-        "20-day momentum is +5.8%.",
+        "20-day momentum is +6.0%.",
         "Price is above 20/50/200-day trend levels.",
-        "Relative strength vs NIFTY is +5.5% over 20 days.",
-        "RSI 14 is 60.8, avoiding an extreme overbought reading.",
-        "Price is within 1.4% of its 20-day high."
+        "Relative strength vs NIFTY is +4.5% over 20 days.",
+        "RSI 14 is 58.6, avoiding an extreme overbought reading.",
+        "Price is within 2.6% of its 20-day high."
       ],
       "catalysts": [
         "Momentum/trend/volume setup detected; verify current company news before acting."
@@ -492,8 +447,56 @@
       "risks": [
         "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
       ],
-      "symbol": "EICHERMOT",
-      "company": "Eichermot"
+      "symbol": "M&M",
+      "company": "M&M"
+    },
+    {
+      "price": 11793.0,
+      "score": 66.8,
+      "signal": "Watch",
+      "opportunity": 66.8,
+      "confidence": 71.3,
+      "risk": 17.3,
+      "horizon": "1–4 weeks",
+      "entry": 11793.0,
+      "target": 12304.07,
+      "stop": 11486.36,
+      "factors": {
+        "Momentum": 60.2,
+        "Trend": 100,
+        "Relative strength": 73.5,
+        "Volume": 0.0,
+        "RSI quality": 79.6,
+        "Breakout proximity": 95.6,
+        "Volatility": 82.7,
+        "Risk/reward": 32.1
+      },
+      "raw": {
+        "rsi14": 67.29,
+        "return5d": 1.13,
+        "return20d": 4.52,
+        "return60d": 10.64,
+        "rel20d": 3.0,
+        "volumeRatio": 0.57,
+        "atrPct": 1.73,
+        "distance20dHighPct": -0.53,
+        "rrProxy": 1.67
+      },
+      "reasons": [
+        "20-day momentum is +4.5%.",
+        "Price is above 20/50/200-day trend levels.",
+        "Relative strength vs NIFTY is +3.0% over 20 days.",
+        "RSI 14 is 67.3, avoiding an extreme overbought reading.",
+        "Price is within 0.5% of its 20-day high."
+      ],
+      "catalysts": [
+        "Momentum/trend/volume setup detected; verify current company news before acting."
+      ],
+      "risks": [
+        "Model does not know future events; earnings, gaps, macro shocks and liquidity can invalidate the setup."
+      ],
+      "symbol": "BAJAJ-AUTO",
+      "company": "Bajaj-Auto"
     }
   ],
   "stocks": [
